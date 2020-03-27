@@ -1,0 +1,36 @@
+#quote-box {
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin: auto;
+  padding: 5rem;
+  width: 55rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  @media screen and (max-width: $tabletPortrait) {
+    padding: 5rem 4rem;
+    width: 45rem;
+  }
+
+  @media screen and (max-width: $largeMobile) {
+    padding: 3rem 0rem;
+    width: 35rem;
+  }
+
+  @media screen and (max-width: $mediumMobile) {
+    width: 30rem;
+  }
+
+  @media screen and (max-width: $smallMobile) {
+    width: 28rem;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5rem;
+}

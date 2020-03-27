@@ -1,0 +1,21 @@
+#copyright {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  padding-bottom: 4rem;
+}
+
+.copyright {
+  &__link {
+    border-bottom: 1px dotted #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: opacity 0.2s;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}

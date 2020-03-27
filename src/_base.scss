@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+}
+
+$tabletPortrait: 768px;
+$largeMobile: 550px;
+$mediumMobile: 450px;
+$smallMobile: 375px;
+$smallestMobile: 320px;

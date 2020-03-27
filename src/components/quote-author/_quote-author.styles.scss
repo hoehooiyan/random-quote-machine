@@ -1,0 +1,12 @@
+#author {
+  margin: 0 5rem 2.5rem 0;
+  text-align: right;
+
+  @media screen and (max-width: $mediumMobile) {
+    font-size: 1.5rem;
+  }
+
+  @media screen and (max-width: $smallMobile) {
+    font-size: 1.3rem;
+  }
+}
