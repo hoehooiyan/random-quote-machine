@@ -6,7 +6,7 @@ const Copyright = () => {
       Made by{' '}
       <a
         className='copyright__link'
-        href='https://github.com/hoehooiyan/freecodecamp-project/tree/master/random-quote-machine'
+        href='https://github.com/hoehooiyan/random-quote-machine'
         target='_blank'
         rel='noopener noreferrer'>
         Hooi Yan
